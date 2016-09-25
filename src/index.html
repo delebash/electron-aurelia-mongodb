@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Electron ES6 Aurelia MongoDB</title>
+
+        <link href="jspm_packages/npm/font-awesome@4.4.0/css/font-awesome.min.css" rel="stylesheet" />
+        <link href="css/app.css" rel="stylesheet"/>
+
+    </head>
+    <body aurelia-app="main">
+        <div>
+            <div class="splash">
+                <div class="message">Thick Client Lives - Electron ES6 Aurelia MongoDB</div>
+                <i class="fa fa-spinner fa-spin"></i>
+            </div>
+        </div>
+
+        <!-- this is the module loader that Aurelia uses -->
+        <script src="jspm_packages/system.js"></script>
+        <script src="config.js"></script>
+        <script>
+            System.import("aurelia-bootstrapper");
+        </script>
+    </body>
+</html>

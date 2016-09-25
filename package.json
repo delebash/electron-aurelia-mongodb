@@ -1,0 +1,44 @@
+{
+  "name": "demoelectronaureliamongodb",
+  "title": "Demo Electron ES6, Aurelia MongoDB",
+  "version": "1.0.0",
+  "description": "Thick client demo app showing Electron, ES6, Aurelia, and MongoDB working together.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build-mac": "electron-packager . 'DemoElectronAureliaMongoDB' --platform=darwin --arch=x64 --version=0.35.1 --overwrite --out ./build/mac",
+    "build-win": "electron-packager . 'DemoElectronAureliaMongoDB' --platform=win32 --arch=ia32 --version=0.35.1 --overwrite --out ./build/win"
+  },
+  "author": "",
+  "homepage": "http://karlshifflett.wordpress.com",
+  "license": "MIT",
+  "keywords": [
+    "electron",
+    "aurelia",
+    "es6",
+    "mongodb"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Oceanware/demoelectronaureliamongodb.git"
+  },
+  "devDependencies": {
+    "electron-packager": "^8.0.0",
+    "electron-prebuilt": "^1.4.1"
+  },
+  "jspm": {
+    "directories": {
+      "baseURL": "src"
+    },
+    "dependencies": {
+      "aurelia-bootstrapper": "npm:aurelia-bootstrapper@^1.0.0-beta.1",
+      "aurelia-framework": "npm:aurelia-framework@^1.0.0-beta.1.0.2",
+      "font-awesome": "npm:font-awesome@^4.4.0"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4"
+    }
+  }
+}
