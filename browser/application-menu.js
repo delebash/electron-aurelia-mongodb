@@ -6,7 +6,6 @@ const electron = require('electron');
 const app = electron.app;
 Menu = electron.Menu;
 
-
 ApplicationMenu = function () {
 };
 

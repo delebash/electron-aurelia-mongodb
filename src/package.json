@@ -1,0 +1,22 @@
+{
+  "name": "demoelectronaureliamongodb",
+  "version": "1.0.0",
+  "bundle": "com.democode.demoelectronaureliamongodb",
+  "description": "Thick client demo app showing Electron, ES6, Aurelia, and MongoDB working together.",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "aurelia",
+    "electron",
+    "es6",
+    "mongodb"
+  ],
+  "author": "Karl R. Shifflett",
+  "homepage": "http://karlshifflett.wordpress.com",
+  "license": "MIT",
+  "dependencies": {
+    "mongodb": "^2.0.49"
+  }
+}

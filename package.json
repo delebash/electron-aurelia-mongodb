@@ -9,7 +9,7 @@
     "build-mac": "electron-packager . 'DemoElectronAureliaMongoDB' --platform=darwin --arch=x64 --version=0.35.1 --overwrite --out ./build/mac",
     "build-win": "electron-packager . 'DemoElectronAureliaMongoDB' --platform=win32 --arch=ia32 --version=0.35.1 --overwrite --out ./build/win"
   },
-  "author": "",
+  "author": "Karl Shifflett",
   "homepage": "http://karlshifflett.wordpress.com",
   "license": "MIT",
   "keywords": [
@@ -23,8 +23,8 @@
     "url": "https://github.com/Oceanware/demoelectronaureliamongodb.git"
   },
   "devDependencies": {
-    "electron-packager": "^8.0.0",
-    "electron-prebuilt": "^1.4.1"
+    "electron-packager": "^5.1.1",
+    "electron-prebuilt": "^0.35.1"
   },
   "jspm": {
     "directories": {
